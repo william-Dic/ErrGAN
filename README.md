@@ -17,10 +17,17 @@ The framework consists of two main components:
 
 ### Intention Guided
 
-![Intention Guided](ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20top%20drawer%20and%20put%20the%20bowl%20inside.gif)
+<video width="320" height="240" controls>
+  <source src="ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20top%20drawer%20and%20put%20the%20bowl%20inside.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Error + Backtracking
 
-![Error + Backtracking](ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20middle%20drawer%20of%20the%20cabinet.gif)
+<video width="320" height="240" controls>
+  <source src="ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20middle%20drawer%20of%20the%20cabinet.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 
