@@ -15,6 +15,9 @@ The framework consists of two main components:
 - **Backtracking**: Upon detecting an error, the model backtracks to the point where the error intention originated. This is followed by intention-guided corrections to adjust the trajectory.
 - **Error + Backtracking + Intention Guided**: The combination of error detection, backtracking, and guided correction to refine the trajectory.
 
+![Intention Guided](ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20top%20drawer%20and%20put%20the%20bowl%20inside)
+![Error + Backtracking(ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20top%20drawer%20and%20put%20the%20bowl%20inside)
+
 #### Intention Guided
 - The model learns to guide the trajectory correction after recognizing an error, ensuring that the new trajectory aligns with the optimal action sequence.
 
