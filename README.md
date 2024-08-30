@@ -15,5 +15,12 @@ The framework consists of two main components:
 2. **Backtracking**: The system backtracks 20 steps before the detected error to understand the error intention and its root cause.
 3. **Intention-Guided Correction**: The generator (Q_GAN) proposes corrective actions to guide the trajectory back on track.
 
+### Intention Guided
+
+![Intention Guided](Utils/video_1.gif)
+
+### Error + Backtracking
+
+![Error + Backtracking](ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20middle%20drawer%20of%20the%20cabinet.gif)
 
 
