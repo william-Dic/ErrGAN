@@ -21,11 +21,11 @@ The framework consists of two main components:
   <tr>
     <td style="text-align: center;">
         <h4>Intention Guided</h4>
-        <img src="Utils/video_1.gif" alt="Intention Guided" style="width: 600px;"/>
+        <img src="Utils/video_1.gif" alt="Intention Guided" style="width: 650px;"/>
     </td>
     <td style="text-align: center;">
         <h4>Error + Backtracking</h4>
-        <img src="Utils/video_2.gif" alt="Error + Backtracking" style="width: 600px;"/>
+        <img src="Utils/video_2.gif" alt="Error + Backtracking" style="width: 650px;"/>
     </td>
   </tr>
 </table>
