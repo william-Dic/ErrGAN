@@ -17,13 +17,15 @@ The framework consists of two main components:
 
 ### Visual Examples
 
-<div style="display: flex; justify-content: space-around;">
-    <div style="text-align: center;">
+<table>
+  <tr>
+    <td style="text-align: center;">
         <h4>Intention Guided</h4>
         <img src="Utils/video_1.gif" alt="Intention Guided" style="width: 400px;"/>
-    </div>
-    <div style="text-align: center;">
+    </td>
+    <td style="text-align: center;">
         <h4>Error + Backtracking</h4>
-        <img src="ckpt/trial_err_GAN_2/libero_goal/video/open%20the%20middle%20drawer%20of%20the%20cabinet.gif" alt="Error + Backtracking" style="width: 400px;"/>
-    </div>
-</div>
+        <img src="Utils/video_2.gif" alt="Error + Backtracking" style="width: 400px;"/>
+    </td>
+  </tr>
+</table>
