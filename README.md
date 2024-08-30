@@ -1,6 +1,4 @@
-# ErrGAN: Error Recognition and Intention Guided GAN
-
-![ErrGAN Logo](https://github.com/william-Dic/ErrGAN/blob/main/assets/errgan_logo.png)  
+# ErrGAN: Error Recognition and Intention Guided GAN 
 
 ## Overview
 
