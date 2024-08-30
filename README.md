@@ -28,19 +28,4 @@ The framework comprises two key components:
 2. **Backtracking**: The system backtracks 20 steps before the detected error to understand the error intention and its root cause.
 3. **Intention-Guided Correction**: The generator (Q_GAN) proposes corrective actions to guide the trajectory back on track.
 
-### Future Work
 
-- **Backtracking Efficiency**: Current backtracking considers the previous 20 steps. Future work involves finding a more efficient backtracking mechanism.
-
-## Repository Structure
-
-```plaintext
-ErrGAN/
-├── assets/                 # Visual assets such as logos and diagrams
-├── data/                   # Data files for training and evaluation
-├── models/                 # Implementation of V_GAN and Q_GAN models
-├── scripts/                # Scripts for data processing and model training
-├── experiments/            # Experimental setups and results
-├── notebooks/              # Jupyter notebooks for detailed analysis
-├── tests/                  # Unit tests for model components
-└── README.md               # This README file
