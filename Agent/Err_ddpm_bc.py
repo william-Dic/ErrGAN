@@ -608,29 +608,22 @@ class IDQL_Agent(BaseAgent):
               real_labels = torch.ones(batch_size, 1).to(self.device)  # [B, 1]
               fake_labels = torch.zeros(batch_size, 1).to(self.device)  # [B, 1]
 
-              # 判别器的梯度清零
               self.optimizer_D.zero_grad()
               
-              # 判别器在真实数据上的损失
               real_logits, real_classes = self.discriminator(image_seq, state_seq, action, lang)
               real_loss = self.criterion(real_classes, real_labels)
               
-              # 生成假动作
               fake_actions = self.generator(state_seq, image_seq, lang)
               
-              # 判别器在伪造数据上的损失
               fake_logits, fake_classes = self.discriminator(image_seq, state_seq, fake_actions, lang)
               fake_loss = self.criterion(fake_classes, fake_labels)
               
-              # 判别器总损失
               d_loss = real_loss + fake_loss
               d_loss.backward(retain_graph=True)
               self.optimizer_D.step()
 
-              # 生成器的梯度清零
               self.optimizer_G.zero_grad()
               
-              # 判别器在更新后的伪造数据上的输出
               fake_logits, fake_classes = self.discriminator(image_seq, state_seq, fake_actions, lang)
               g_loss = self.criterion(fake_classes, real_labels)
               
