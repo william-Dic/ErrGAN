@@ -5,7 +5,7 @@ save_file=trial_err_Q_GAN
 #TODO 换个名字 不要覆盖了
 for seed in 42; do
 export CUDA_VISIBLE_DEVICES=1
-export WANDB_API_KEY=50c6849f6ace6d14558a4b9c709860e1a36bb17d
+export WANDB_API_KEY=
 torchrun --standalone --nnodes=1 --nproc_per_node=1 Err_train.py \
     --dataset 'libero_goal' \
     --algo_name 'trial and err' \
